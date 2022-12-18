@@ -10,7 +10,7 @@ import toolkit
 START = "2015-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
-st.title('Stock Forecast App')
+st.title('David Assouline - Stock Forecasting App - WGU Capstone')
 
 stocks = toolkit.get_tickers()
 selected_stock = st.selectbox('Select stock for prediction', stocks)
